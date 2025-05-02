@@ -29,7 +29,7 @@
 &kp LSHFT  &kp A   &kp S     &kp D   &kp F      &kp G                                              &kp H      &kp J          &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LCTRL  &kp Z   &kp X     &kp C   &kp V      &kp B                                              &kp N      &kp M          &kp COMMA  &kp DOT    &kp SLASH  &kp BSLH
 &kp LEFT   &kp UP  &kp LBKT  &kp RBKT                                                                                        &kp GRAVE  &kp EQUAL  &kp DOWN   &kp RIGHT
-                                   &kp SPACE  &kp RET                                            &kp RET    &kp BACKSPACE
+                                   &kp SPACE  &kp RET                                            &kp RET    &kp SPACE
                                               &kp LEFT_ALT    &kp HOME             &kp END       &kp DEL
                                               &kp LEFT_GUI    &kp PG_UP            &kp PG_DN     &Caps_RALT
                 >;
