@@ -8,7 +8,14 @@
 #define ADJ 3
 
 / {
-    
+    behaviors {
+        Caps_RALT: Caps_RALT {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Caps_RALT";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT>, <&kp CAPS>;
+        };
+     };
     combos { compatible = "zmk,combos"; };
 
     keymap {
@@ -23,8 +30,8 @@
 &kp LCTRL  &kp Z   &kp X     &kp C   &kp V      &kp B                                              &kp N      &kp M          &kp COMMA  &kp DOT    &kp SLASH  &kp BSLH
 &kp LEFT   &kp UP  &kp LBKT  &kp RBKT                                                                                        &kp GRAVE  &kp EQUAL  &kp DOWN   &kp RIGHT
                                    &kp SPACE  &kp RET                                            &kp RET    &kp BACKSPACE
-                                              &kp LEFT_ALT    &kp HOME             &kp END       &kp RIGHT_ALT
-                                              &kp LEFT_GUI    &kp PG_UP            &kp PG_DN     &kp DEL
+                                              &kp LEFT_ALT    &kp HOME             &kp END       &kp DEL
+                                              &kp LEFT_GUI    &kp PG_UP            &kp PG_DN     &Caps_RALT
                 >;
             };
 
